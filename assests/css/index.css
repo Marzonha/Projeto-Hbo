@@ -1,1 +1,31 @@
 @import url('./global.css');
+
+
+main{
+
+  background: url('./images/bgG.jpeg') no-repeat;
+  background-size: cover;
+
+}
+
+/* header */
+
+.header{
+
+
+  position: relative;
+  padding: 100px 0 300px;
+  background-color: var(--primary-color);
+  background: linear-gradient(
+   
+  45deg,
+  #9b34ef 0%,
+  #490cb0 20%
+  transparent 50%
+  
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite alternate;
+
+
+}
