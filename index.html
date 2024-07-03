@@ -12,74 +12,114 @@
 <body>
     <nav class="menu">
 
-        <a href="index.html">
-            <img class="menu-logo-image" src="./assests/imagens/logoHboG.jpeg" alt="Logo da marca">
+        <a href="index.html" class="menu-logo">
+            <img class="menu-logo-image" src="./assests/imagens/hbo-logo.svg" alt="Logo da marca">
         </a>
 
         <div>
 
-            <a href="" class="menu-item">Entrar</a>
+            <a href="./singInin.html" class="menu-item">Entrar</a>
             <a href="./singInin.html" class="menu-item-menu">Assine Agora</a>
 
         </div>
 
     </nav>
 
-    <!-- Header, planos preços -->
 
-    <header>
-        <div>
-            <div>
-                <img src="./assests/imagens/cartoon.jpeg" alt="">
-                <img src="./assests/imagens/dc.jpeg" alt="">
-                <img src="./assests/imagens/fb.jpeg" alt="">
-                <img src="./assests/imagens/insta.jpeg" alt="">
-                <img src="./assests/imagens/twitter.jpeg" alt="">
-           </div>
-       </div>
-
-        <h1 class="header-title">
-            <span class="header-title-light">Curta as Melhores Histórias</span>
-        </h1>
-        <div class="divider"></div>
-        <div class="offer">
-            <p>Assinaturad a partir de </p>
-            <p class="offer-price"> $14,15 <span>/Mês*</span></p>
+    <!-- header - planos/preços -->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-channels">
+                <img class="header-channel" src="./assests/imagens/hbo.png" alt="logo-hbo">
+                <img class="header-channel" src="./assests/imagens/dc.png" alt="logo-dc">
+                <img class="header-channel" src="./assests/imagens/wb.png" alt="logo-wb">
+                <img class="header-channel" src="./assests/imagens/cartoon-network_neutral.png" alt="logo-cnt">
+                <img class="header-channel" src="assests/imagens/max_originals.png" alt="logo-origin">
+            </div>
+            <h1 class="header-title">
+                <span class="header-title-light">Curta as melhores histórias</span>
+                Para todo mundo
+            </h1>
+            <div class="divider"></div>
+            <div class="offer">
+                <p>Assinaturas a partir de</p>
+                <p class="offer-price"> $14,15 <span class="offer-price-small">/mês*</span> </p>
+            </div>
+            <a href="" class="button button-gradient header-button">
+                Assine agora...
+            </a>
+            <p class="text-small">
+                *Aplicável ao plano anual com pagamento antecipado</p>
         </div>
-        <a href="" class="button button-gradient header-button">
-            Assine Agora
-        </a>
-        <p class="text-small">
-            Aplicavel ao plano anual com pagamento antecipado
-        </p>
     </header>
 
-    <!-- Main, Conteudo -->
-
+    <!-- main - conteudo principal -->
     <main>
         <section class="subscription">
             <div class="container">
-                <h2 class="title">Conheça nossos planos e economize na assinatura trimestral ou anual com pagamento
-                    antecipado</h2>
+                <h2 class="title">
+                    Conheça nossos planos e economize na assinatura trimestral
+                    ou anual com pagamento antecipado.
+                </h2>
                 <div class="subscription-plans">
                     <div class="subscription-card">
                         <div>
-                            <div>
+                            <div class="subscription-plan">
                                 <h3>Mobile</h3>
-                                <p>$19,90 <span class="text-small">/Mês</span></p>
+                                <p class="subscription-price">R$ 19,90 <span class="text-small">/mês</span></p>
                             </div>
-
+                            <ul class="subscription-goals">
+                                <li class="subscription-subscription">
+                                    Aproveite em smartphones, tablets onde quiser
+                                </li>
+                                <li class="subscription-subscription">
+                                    Assista em 1 tela por vez
+                                </li>
+                                <li class="subscription-subscription">
+                                    Tenha conteúdo em resolução adaptada para cada dispositivo
+                                </li>
+                                <li class="subscription-subscription">
+                                    Baixe suas séries e filmes favoritos, assista onde e quando quiser.
+                                </li>
+                            </ul>
                         </div>
-
+                        <button class="button button-gradient">Escolher plano mobile</button>
                     </div>
 
+                    <div class="subscription-card">
+                        <div>
+                            <div class="subscription-plan">
+                                <h3>Multitela</h3>
+                                <p class="subscription-price">$27,90 <span class="text-small">/Mês</span></p>
+                            </div>
+                            <ul class="subscription-goals">
+                                <li class="subscription-subscription">
+                                    Aproveite em todos os seus dispositivos
+                                </li>
+                                <li class="subscription-subscription">
+                                    Chromecast e Airplay disponiveis
+                                </li>
+                                <li class="subscription-subscription">
+                                    Assista em 3 telas diferentes ao mesmo tempo
+                                </li>
+                                <li class="subscription-subscription">
+                                    Baixe suas series e filmes favoritos
+                                </li>
+                                <li class="subscription-subscription">
+                                    Crie até 5 telas
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="button button-gradient">Escolher plano multitela</button>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
 
- 
+
+
 </body>
 
 </html>
