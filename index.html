@@ -2,124 +2,191 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assests/css/global.css">
-    <link rel="stylesheet" href="./assests/css/index.css">
-    <title>HBO Max</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assests/css/index.css" />
+  <title>HBO Max</title>
 </head>
 
 <body>
-    <nav class="menu">
+  <nav class="menu">
+    <a href="index.html" class="menu-logo">
+      <img src="assests/images/hbo-logo.svg" alt="Logotipo HBOMax com o nome da marca" class="menu-logo-image" />
+    </a>
+    <div>
+      <a href="./singInin.html" class="menu-item">Entrar</a>
+      <a href="#subscription" class="menu-item menu-item-button button">
+        Assine Agora
+      </a>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="header-content">
+      <div class="header-channels">
+        <img class="header-channel" src="assests/images/hbo.png" alt="HBO" />
+        <img class="header-channel" src="assests/images/dc.png" alt="DC" />
+        <img class="header-channel" src="assests/images/wb.png" alt="Warner Bross" />
+        <img class="header-channel" src="assests/images/cartoon-network_neutral.png" alt="Cartoon Network" />
+        <img class="header-channel" src="assests/images/max_originals.png" alt="Max Originals" />
+      </div>
+      <h1 class="header-title">
+        <span class="header-title-light">Curta as melhores histórias</span>
+        Para todo mundo
+      </h1>
+      <div class="divider"></div>
+      <div class="offer">
+        <p>Assinaturas a partir de</p>
+        <p class="offer-price">
+          R$14,15 <span class="offer-price-small">/mês*</span>
+        </p>
+      </div>
+      <a href="#subscription" class="button button-gradient header-button">
+        Assine agora
+      </a>
+      <p class="text-small">
+        *aplicável ao plano anual com o pagamento antecipado.
+      </p>
+    </div>
+  </header>
 
-        <a href="index.html" class="menu-logo">
-            <img class="menu-logo-image" src="./assests/imagens/hbo-logo.svg" alt="Logo da marca">
-        </a>
+  <main>
+    <section id="subscription" class="subscription">
+      <div class="container">
+        <h2 class="title">
+          Conheça nossos planos e economize na assinatura trimestral ou anual
+          com o pagamento antecipado.
+        </h2>
+        <div class="subscription-plans">
+          <div class="subscription-card">
+            <div>
+              <div class="subscription-plan">
+                <h3>Mobile</h3>
+                <p class="subscription-price">
+                  R$ 19,90 <span class="text-small">/mês</span>
+                </p>
+              </div>
 
-        <div>
+              <ul class="subscription-goals">
+                <li class="subscription-description">
+                  Aproveite em smartphones e tablets, onde quiser.
+                </li>
+                <li class="subscription-description">
+                  Assista em 1 tela por vez.
+                </li>
+                <li class="subscription-description">
+                  Tenha conteúdo em resolução adaptada para cada dispositivo.
+                </li>
+                <li class="subscription-description">
+                  Baixe suas séries e filmes favoritos, assista onde e quando
+                  quiser.
+                </li>
+              </ul>
+            </div>
+            <button class="button button-gradient">
+              Escolher o Plano Mobile
+            </button>
+          </div>
 
-            <a href="./singInin.html" class="menu-item">Entrar</a>
-            <a href="./singInin.html" class="menu-item-menu">Assine Agora</a>
+          <div class="subscription-card">
+            <div>
+              <div class="subscription-plan">
+                <h3>Multitelas</h3>
+                <p class="subscription-price">
+                  R$ 27,90 <span class="text-small">/mês</span>
+                </p>
+              </div>
 
+              <ul>
+                <li class="subscription-description">
+                  Aproveite em todos os seus dispositivos.
+                </li>
+                <li class="subscription-description">
+                  Chromecast e Airplay disponíveis.
+                </li>
+                <li class="subscription-description">
+                  Assista em até 3 telas ao mesmo tempo.
+                </li>
+                <li class="subscription-description">
+                  Tenha conteúdo em alta definição, com qualidade 4K.
+                </li>
+                <li class="subscription-description">
+                  Baixe suas séries e filmes favoritos, assista onde e quando
+                  quiser.
+                </li>
+                <li class="subscription-description">
+                  Crie até 5 perfis diferentes.
+                </li>
+              </ul>
+            </div>
+            <button class="button button-gradient">
+              Escolher o Plano Multitelas
+            </button>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </nav>
-
-
-    <!-- header - planos/preços -->
-    <header class="header">
-        <div class="header-content">
-            <div class="header-channels">
-                <img class="header-channel" src="./assests/imagens/hbo.png" alt="logo-hbo">
-                <img class="header-channel" src="./assests/imagens/dc.png" alt="logo-dc">
-                <img class="header-channel" src="./assests/imagens/wb.png" alt="logo-wb">
-                <img class="header-channel" src="./assests/imagens/cartoon-network_neutral.png" alt="logo-cnt">
-                <img class="header-channel" src="assests/imagens/max_originals.png" alt="logo-origin">
-            </div>
-            <h1 class="header-title">
-                <span class="header-title-light">Curta as melhores histórias</span>
-                Para todo mundo
-            </h1>
-            <div class="divider"></div>
-            <div class="offer">
-                <p>Assinaturas a partir de</p>
-                <p class="offer-price"> $14,15 <span class="offer-price-small">/mês*</span> </p>
-            </div>
-            <a href="" class="button button-gradient header-button">
-                Assine agora...
-            </a>
-            <p class="text-small">
-                *Aplicável ao plano anual com pagamento antecipado</p>
+    <!-- sessão cards -->
+     
+    <section id="contents" class="contents container">
+      <h2 class="title">Descubra novos universos</h2>
+      <div class="contents-container">
+        <div class="contents-card">
+          <img class="contents-image" src="assests/images/hbo-default_0.webp" alt="HBO" />
         </div>
-    </header>
+        <div class="contents-card">
+          <img class="contents-image" src="assests/images/MAX-Default.webp" alt="Max Originals" />
+        </div>
+        <div class="contents-card">
+          <img class="contents-image" src="assests/images/DC_Default.webp" alt="DC" />
+        </div>
+        <div class="contents-card">
+          <img class="contents-image" src="assests/images/WB-Default.webp" alt="Warner Bross" />
+        </div>
+        <div class="contents-card">
+          <img class="contents-image" src="assests/images/CN-Default.webp" alt="Cartoon Network" />
+        </div>
+        <div class="contents-card">
+          <img class="contents-image" src="assests/images/UCL-Default.webp" alt="UEFA Champions League" />
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <!-- main - conteudo principal -->
-    <main>
-        <section class="subscription">
-            <div class="container">
-                <h2 class="title">
-                    Conheça nossos planos e economize na assinatura trimestral
-                    ou anual com pagamento antecipado.
-                </h2>
-                <div class="subscription-plans">
-                    <div class="subscription-card">
-                        <div>
-                            <div class="subscription-plan">
-                                <h3>Mobile</h3>
-                                <p class="subscription-price">R$ 19,90 <span class="text-small">/mês</span></p>
-                            </div>
-                            <ul class="subscription-goals">
-                                <li class="subscription-subscription">
-                                    Aproveite em smartphones, tablets onde quiser
-                                </li>
-                                <li class="subscription-subscription">
-                                    Assista em 1 tela por vez
-                                </li>
-                                <li class="subscription-subscription">
-                                    Tenha conteúdo em resolução adaptada para cada dispositivo
-                                </li>
-                                <li class="subscription-subscription">
-                                    Baixe suas séries e filmes favoritos, assista onde e quando quiser.
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="button button-gradient">Escolher plano mobile</button>
-                    </div>
-
-                    <div class="subscription-card">
-                        <div>
-                            <div class="subscription-plan">
-                                <h3>Multitela</h3>
-                                <p class="subscription-price">$27,90 <span class="text-small">/Mês</span></p>
-                            </div>
-                            <ul class="subscription-goals">
-                                <li class="subscription-subscription">
-                                    Aproveite em todos os seus dispositivos
-                                </li>
-                                <li class="subscription-subscription">
-                                    Chromecast e Airplay disponiveis
-                                </li>
-                                <li class="subscription-subscription">
-                                    Assista em 3 telas diferentes ao mesmo tempo
-                                </li>
-                                <li class="subscription-subscription">
-                                    Baixe suas series e filmes favoritos
-                                </li>
-                                <li class="subscription-subscription">
-                                    Crie até 5 telas
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="button button-gradient">Escolher plano multitela</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-
-
-
+  <footer class="footer container">
+    <div>
+      <a class="footer-link" href="https://www.hbomax.com/br/pt/sitemap">
+        Agora na HBO Max
+      </a>
+      <a class="footer-link" href="https://www.hbomax.com/br/pt/coming-soon">
+        Em breve
+      </a>
+      <a class="footer-link" href="https://www.hbomax.com/br/pt/feature">
+        Filme em destaque
+      </a>
+      <a class="footer-link" href="https://www.hbomax.com/br/pt/series">Séries</a>
+      <a class="footer-link" href="https://help.hbomax.com/br">Ajuda</a>
+    </div>
+    <p class="text-small footer-legal">
+      © 2024 WarnerMedia Direct Latin America, LLC. Todos os direitos
+      reservados. HBO Max é usado sob licença.
+    </p>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/HBOMaxBr/" class="footer-social-link">
+        <img src="assests/images/fb_0.png" alt="Facebook" />
+      </a>
+      <a href="https://twitter.com/HBOMaxBR" class="footer-social-link">
+        <img src="assests/images/twitter_0.png" alt="Twitter" />
+      </a>
+      <a href="https://www.instagram.com/hbomaxbr/" class="footer-social-link">
+        <img src="assests/images/instagram_0.png" alt="Instagram" />
+      </a>
+      <a href="https://www.youtube.com/c/hbomaxbr" class="footer-social-link">
+        <img src="assests/images/youtube_0.png" alt="Youtube" />
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
